@@ -1,0 +1,602 @@
+[
+    {
+        "Id": 1000,
+        "Name": "Orono",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "bard"
+        ],
+        "Intelligence": 27,
+        "Strength": 33,
+        "Dexterity": 44
+    },
+    {
+        "Id": 1001,
+        "Name": "Garl Glittergold",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "tiefling",
+            "paladin"
+        ],
+        "Intelligence": 5,
+        "Strength": 31,
+        "Dexterity": 13
+    },
+    {
+        "Id": 1002,
+        "Name": "Kaira",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "aasimar",
+            "cleric"
+        ],
+        "Intelligence": 14,
+        "Strength": 19,
+        "Dexterity": 45
+    },
+    {
+        "Id": 1003,
+        "Name": "Garl Glittergold",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "monk"
+        ],
+        "Intelligence": 40,
+        "Strength": 19,
+        "Dexterity": 34
+    },
+    {
+        "Id": 1004,
+        "Name": "Balthazar Grim",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "ranger"
+        ],
+        "Intelligence": 11,
+        "Strength": 22,
+        "Dexterity": 47
+    },
+    {
+        "Id": 1005,
+        "Name": "Valtor",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "tiefling",
+            "wizard"
+        ],
+        "Intelligence": 8,
+        "Strength": 45,
+        "Dexterity": 4
+    },
+    {
+        "Id": 1006,
+        "Name": "Rina",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "wizard"
+        ],
+        "Intelligence": 28,
+        "Strength": 17,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1007,
+        "Name": "Jaxx Steelhand",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "gnome",
+            "barbarian"
+        ],
+        "Intelligence": 21,
+        "Strength": 25,
+        "Dexterity": 29
+    },
+    {
+        "Id": 1008,
+        "Name": "Aric",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "gnome",
+            "paladin"
+        ],
+        "Intelligence": 32,
+        "Strength": 32,
+        "Dexterity": 10
+    },
+    {
+        "Id": 1009,
+        "Name": "Xandros",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "gnome",
+            "wizard"
+        ],
+        "Intelligence": 36,
+        "Strength": 6,
+        "Dexterity": 19
+    },
+    {
+        "Id": 1010,
+        "Name": "Sylvanas",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "rogue"
+        ],
+        "Intelligence": 35,
+        "Strength": 17,
+        "Dexterity": 14
+    },
+    {
+        "Id": 1011,
+        "Name": "Lila Blackwood",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "bard"
+        ],
+        "Intelligence": 45,
+        "Strength": 36,
+        "Dexterity": 11
+    },
+    {
+        "Id": 1012,
+        "Name": "Erevan Ilesere",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "barbarian"
+        ],
+        "Intelligence": 47,
+        "Strength": 16,
+        "Dexterity": 34
+    },
+    {
+        "Id": 1013,
+        "Name": "Merlin",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "monk"
+        ],
+        "Intelligence": 45,
+        "Strength": 25,
+        "Dexterity": 17
+    },
+    {
+        "Id": 1014,
+        "Name": "Thorgrimm",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "monk"
+        ],
+        "Intelligence": 47,
+        "Strength": 6,
+        "Dexterity": 23
+    },
+    {
+        "Id": 1015,
+        "Name": "Caius",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "barbarian"
+        ],
+        "Intelligence": 16,
+        "Strength": 30,
+        "Dexterity": 13
+    },
+    {
+        "Id": 1016,
+        "Name": "Merlin",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "aasimar",
+            "cleric"
+        ],
+        "Intelligence": 50,
+        "Strength": 24,
+        "Dexterity": 45
+    },
+    {
+        "Id": 1017,
+        "Name": "Eamon",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "druid"
+        ],
+        "Intelligence": 18,
+        "Strength": 4,
+        "Dexterity": 31
+    },
+    {
+        "Id": 1018,
+        "Name": "Galadriel",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "wizard"
+        ],
+        "Intelligence": 48,
+        "Strength": 31,
+        "Dexterity": 4
+    },
+    {
+        "Id": 1019,
+        "Name": "Kethra",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dragonborn",
+            "warlock"
+        ],
+        "Intelligence": 35,
+        "Strength": 13,
+        "Dexterity": 18
+    },
+    {
+        "Id": 1020,
+        "Name": "Ghen",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "human",
+            "sorcerer"
+        ],
+        "Intelligence": 9,
+        "Strength": 5,
+        "Dexterity": 42
+    },
+    {
+        "Id": 1021,
+        "Name": "Kaira",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "aasimar",
+            "ranger"
+        ],
+        "Intelligence": 2,
+        "Strength": 3,
+        "Dexterity": 26
+    },
+    {
+        "Id": 1022,
+        "Name": "Dagny Ironfist",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "ranger"
+        ],
+        "Intelligence": 33,
+        "Strength": 13,
+        "Dexterity": 46
+    },
+    {
+        "Id": 1023,
+        "Name": "Tormag",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "barbarian"
+        ],
+        "Intelligence": 5,
+        "Strength": 11,
+        "Dexterity": 29
+    },
+    {
+        "Id": 1024,
+        "Name": "Tormag",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-orc",
+            "sorcerer"
+        ],
+        "Intelligence": 21,
+        "Strength": 30,
+        "Dexterity": 17
+    },
+    {
+        "Id": 1025,
+        "Name": "Lila Blackwood",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "cleric"
+        ],
+        "Intelligence": 14,
+        "Strength": 3,
+        "Dexterity": 5
+    },
+    {
+        "Id": 1026,
+        "Name": "Zarek",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "wizard"
+        ],
+        "Intelligence": 31,
+        "Strength": 23,
+        "Dexterity": 43
+    },
+    {
+        "Id": 1027,
+        "Name": "Orono",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "aasimar",
+            "bard"
+        ],
+        "Intelligence": 2,
+        "Strength": 11,
+        "Dexterity": 44
+    },
+    {
+        "Id": 1028,
+        "Name": "Farah",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "warlock"
+        ],
+        "Intelligence": 16,
+        "Strength": 8,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1029,
+        "Name": "Akiko",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "fighter"
+        ],
+        "Intelligence": 45,
+        "Strength": 23,
+        "Dexterity": 37
+    },
+    {
+        "Id": 1030,
+        "Name": "Quarion",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "cleric"
+        ],
+        "Intelligence": 33,
+        "Strength": 43,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1031,
+        "Name": "Moria",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elven",
+            "rogue"
+        ],
+        "Intelligence": 10,
+        "Strength": 18,
+        "Dexterity": 45
+    },
+    {
+        "Id": 1032,
+        "Name": "Zarek",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-orc",
+            "barbarian"
+        ],
+        "Intelligence": 30,
+        "Strength": 38,
+        "Dexterity": 36
+    },
+    {
+        "Id": 1033,
+        "Name": "Jaxx Steelhand",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "paladin"
+        ],
+        "Intelligence": 16,
+        "Strength": 7,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1034,
+        "Name": "Nyla Shadowstalker",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "rogue"
+        ],
+        "Intelligence": 48,
+        "Strength": 17,
+        "Dexterity": 31
+    },
+    {
+        "Id": 1035,
+        "Name": "Merlin",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "human",
+            "druid"
+        ],
+        "Intelligence": 38,
+        "Strength": 39,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1036,
+        "Name": "Sarina",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "half-elf",
+            "cleric"
+        ],
+        "Intelligence": 37,
+        "Strength": 9,
+        "Dexterity": 38
+    },
+    {
+        "Id": 1037,
+        "Name": "Ghen",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "barbarian"
+        ],
+        "Intelligence": 9,
+        "Strength": 24,
+        "Dexterity": 37
+    },
+    {
+        "Id": 1038,
+        "Name": "Kaira",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "bard"
+        ],
+        "Intelligence": 50,
+        "Strength": 49,
+        "Dexterity": 37
+    },
+    {
+        "Id": 1039,
+        "Name": "Halthor Ironforge",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dragonborn",
+            "bard"
+        ],
+        "Intelligence": 19,
+        "Strength": 21,
+        "Dexterity": 13
+    },
+    {
+        "Id": 1040,
+        "Name": "Orono",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "druid"
+        ],
+        "Intelligence": 49,
+        "Strength": 33,
+        "Dexterity": 15
+    },
+    {
+        "Id": 1041,
+        "Name": "Wren",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "tiefling",
+            "sorcerer"
+        ],
+        "Intelligence": 31,
+        "Strength": 47,
+        "Dexterity": 30
+    },
+    {
+        "Id": 1042,
+        "Name": "Aric",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "paladin"
+        ],
+        "Intelligence": 14,
+        "Strength": 36,
+        "Dexterity": 48
+    },
+    {
+        "Id": 1043,
+        "Name": "Merlin",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "elf",
+            "barbarian"
+        ],
+        "Intelligence": 5,
+        "Strength": 28,
+        "Dexterity": 35
+    },
+    {
+        "Id": 1044,
+        "Name": "Fae",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "halfling",
+            "monk"
+        ],
+        "Intelligence": 6,
+        "Strength": 28,
+        "Dexterity": 22
+    },
+    {
+        "Id": 1045,
+        "Name": "Halthor Ironforge",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dragonborn",
+            "barbarian"
+        ],
+        "Intelligence": 48,
+        "Strength": 23,
+        "Dexterity": 25
+    },
+    {
+        "Id": 1046,
+        "Name": "Moria",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "gnome",
+            "cleric"
+        ],
+        "Intelligence": 7,
+        "Strength": 26,
+        "Dexterity": 45
+    },
+    {
+        "Id": 1047,
+        "Name": "Fae",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "aasimar",
+            "wizard"
+        ],
+        "Intelligence": 35,
+        "Strength": 30,
+        "Dexterity": 10
+    },
+    {
+        "Id": 1048,
+        "Name": "Nyla Shadowstalker",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dragonborn",
+            "druid"
+        ],
+        "Intelligence": 19,
+        "Strength": 50,
+        "Dexterity": 20
+    },
+    {
+        "Id": 1049,
+        "Name": "Sarina",
+        "Type": "Creature",
+        "CreatureTypes": [
+            "dwarf",
+            "paladin"
+        ],
+        "Intelligence": 20,
+        "Strength": 18,
+        "Dexterity": 22
+    }
+]

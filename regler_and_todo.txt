@@ -1,0 +1,74 @@
+
+Är inte detta typ som ett enklare slay the spire?
+ - skillnaden är att slay the spire har turns där man spelar flera kort och 
+    där man kan få x skada mot x defense varav i vårt spel så är det 1 kort mot 1 annat
+    dvs Slay the spire är typ 1 + 3 + 4 + 2 str mot 2 + 4 + 6 def 
+        och det finns bara en stat i slay the spire
+
+1. Remove UI from rest of code to prepare for Godot
+   - use signals or returns or a Model object 
+   - what is the best way to integrate with Godot from C#? 
+      like if an animation is to be run and then something else, how to communicate that 
+      from the model to the UI?
+      perhaps the models/cards should have actions they can start or something?
+2. Perhaps it's even a good idea to add unit tests
+
+MVP 1
+ - FÖR ATT TESTA SEN SKA DU HA FASTA LEKAR FÖR PLAYER OCH ENEMY
+    - du kan börja med en där typ player inte kan förlora ;D
+ - börja med en var som du tunear tills de är "lika"
+ - man kan köra 1on1 och sen får man se hur många man vinner i rad som mest
+ - du ska också ha så du kan köra igenom lekarna mot varandra som dator mot dator typ 1000 gånger 
+    så du kan se om någon lek är mer balanserad eller inte
+    optimal strategy och mindre optimal t.ex 
+
+
+
+
+-- Start Game
+
+Shuffle decks
+Dra 3 kort var som start
+
+-- Start Turn
+
+en stat väljs på random av DATAN och visas 
+
+computer drar ett kort 
+
+computer lägger sin creature face up
+computer lägger sina items face up 
+
+human drar ett kort 
+
+du väljer dina kort och lägger ut dem
+
+trycker sen "End turn"
+
+Visar vad som händer i ordningen
+
+- onFaceUp -> kör onFaceUp-effekter
+- onCompare -> kör onCompare-effekter (t.ex enemy items stats -2)
+- summera spelarnas stats
+
+
+--
+
+ideer
+ - kortet som vinner stannar på bordet och får spela i nästa duell
+ - en boss kan vara en som har väldigt högt i en stat där den förlorar stat varje gång man förlorar mot den
+    - eftersom det är en boss så gör det inget att man förlorar hp för man får full hp i varje duell
+
+ vi skulle kunna göra random kort varje gång tom, typ som diablo items 
+ där det också finns legendary kort 
+ sen kan du ha teman man kan få via artifakter eller annat som vi kan addera sen 
+
+ - items/creatures som sätter vilken nästa stat är (istället för att den väljs som random)
+ - enemy discards a card 
+ - action: remove the opponents item 
+
+ - artifakter 
+    - adds +2 to all stats for all characters
+    - int is always first stat in every round
+    - adds one extra item slot (dvs du kan spela 3 kort på en tur)
+    - draw an extra card at the start of each combat    

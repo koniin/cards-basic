@@ -1,0 +1,50 @@
+Aldar Kose, human ranger
+Balthazar Grim, human warlock
+Celandine, half-elf bard
+Dagny Ironfist, dwarf cleric
+Erevan Ilesere, elven rogue
+Farah, human paladin
+Garl Glittergold, gnome cleric
+Halthor Ironforge, dwarf barbarian
+Illyria, dragonborn monk
+Jaxx Steelhand, human fighter
+Kethra, tiefling warlock
+Lila Blackwood, half-elf ranger
+Moria, half-orc bard
+Nyla Shadowstalker, halfling rogue
+Orono, human wizard
+Petya, human paladin
+Quarion, elven ranger
+Ralindir, half-elf druid
+Sarina, human rogue
+Tormag, dwarf fighter
+Ulfgar, human barbarian
+Valerian, human wizard
+Wren, halfling bard
+Xandros, half-elf paladin
+Yara, tiefling sorcerer
+Zara, human ranger
+Alaric, human monk
+Bria, halfling rogue
+Caius, human fighter
+Daphne, half-elf druid
+Aric, aasimar paladin
+Kaira, half-elf rogue
+Luna, human bard
+Thorgrimm, dwarf cleric
+Sylvanas, elf ranger  
+Zarek, tiefling warlock  
+Valtor, dragonborn sorcerer  
+Pippin, halfling fighter  
+Akiko, human monk  
+Nixie, gnome warlock  
+Grimgor, half-orc barbarian  
+Ghen, dwarf druid  
+Merlin, human wizard  
+Elara, elf cleric  
+Eamon, half-elf ranger  
+Rina, tiefling rogue  
+Galadriel, dragonborn paladin  
+Willow, halfling bard  
+Marcus, human fighter  
+Fae, gnome druid  

@@ -43,11 +43,11 @@ string[] stats = new string[] {
 int computerHealth = 4;
 int humanHealth = 4;
 
-var actor1TakeTurn = ComputerActorTurn;
-var actor2TakeTurn = HumanActorTurn;
-
 Card actor1PlayedCard = null;
 Card actor2PlayedCard = null;
+
+var actor1TakeTurn = ComputerActorTurn;
+var actor2TakeTurn = HumanActorTurn;
 
 string state = "round_start";
 string stat = "";
@@ -121,7 +121,7 @@ while (!gameOver)
                 {
                     Console.WriteLine($"ERROR: {reason}");
                 }
-                
+
                 state = "round_start";
 
                 Console.WriteLine(Environment.NewLine);
@@ -151,25 +151,45 @@ Card ComputerActorTurn(string stat)
 Card HumanActorTurn(string stat)
 {
     Card c = null;
-    // get input from human
-    var cmd = Console.ReadLine();
-    if (cmd == "q")
+    if (Console.KeyAvailable)
     {
-        gameOver = true;
-    }
-    else if (cmd.StartsWith("p"))
-    {
-        var parameters = cmd.Split(' ');
-        var (foundCard, humanPlayedCard) = PlayCard(int.Parse(parameters[1]), humanHand);
-        if (foundCard)
+        ConsoleKeyInfo key = Console.ReadKey(true);
+        switch (key.Key)
         {
-            c = humanPlayedCard;
-        }
-        else
-        {
-            Console.WriteLine($"could not find card with id {parameters[1]}");
+            case ConsoleKey.F1:
+                Console.WriteLine("You pressed F1!");
+                break;
+            case ConsoleKey.Q:
+                gameOver = true;
+                break;
+            case ConsoleKey.Spacebar:
+                if (actor2PlayedCard != null)
+                {
+                    Console.WriteLine("End Turn");
+                    state = "resolve";
+                }
+                else
+                {
+                    Console.WriteLine("Can't end turn");
+                }
+                break;
+            case ConsoleKey.P:
+                {
+                    Console.WriteLine("Blocking until we have gotten an id of card to play");
+                    var idString = Console.ReadLine();
+                    var id = int.Parse(idString);
+                    var (foundCard, ccc) = PlayCard(id, humanHand);
+                    if (foundCard)
+                    {
+                        c = ccc;
+                    }
+                    break;
+                }
+            default:
+                break;
         }
     }
+
     return c;
 }
 
